@@ -2,7 +2,7 @@
 if (!isset($_SESSION)) {
 	session_start();
 }
-
+include_once "app.php";
 include "connectionCtrl.php";
 
 if (isset($_POST['action'])) {
